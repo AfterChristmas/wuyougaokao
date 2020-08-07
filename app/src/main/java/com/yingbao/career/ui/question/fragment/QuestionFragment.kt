@@ -176,7 +176,7 @@ class QuestionFragment : Fragment() {
     private fun setOptionChoseState(textView: TextView,relativeLayout: RelativeLayout,chooseState:Boolean){
         if (chooseState){
             textView.setTextColor(Color.WHITE)
-            relativeLayout.setBackgroundColor(Color.parseColor("#1FBD9E"))
+            relativeLayout.setBackgroundColor(Color.parseColor("#2fbacb"))
         }else{
             relativeLayout.setBackgroundColor(Color.WHITE)
             textView.setTextColor(Color.parseColor("#242424"))

@@ -102,7 +102,7 @@ class ErrorBookActivity : BaseActivity() {
                 simplePagerTitleView.setText(list.get(index).subjectName);
                 simplePagerTitleView.setTextSize(16f);
                 simplePagerTitleView.setNormalColor(Color.parseColor("#666666"));
-                simplePagerTitleView.setSelectedColor(Color.parseColor("#1FBD9E"));
+                simplePagerTitleView.setSelectedColor(Color.parseColor("#2fbacb"));
                 simplePagerTitleView.setOnClickListener { mViewPager.currentItem = index }
                 return simplePagerTitleView
             }
@@ -110,7 +110,7 @@ class ErrorBookActivity : BaseActivity() {
             override  fun getIndicator(context: Context): IPagerIndicator {
                 val indicator = LinePagerIndicator(context)
                 indicator.mode = LinePagerIndicator.MODE_WRAP_CONTENT
-                indicator.setColors(Color.parseColor("#1FBD9E"))
+                indicator.setColors(Color.parseColor("#2fbacb"))
                 return indicator
             }
         }

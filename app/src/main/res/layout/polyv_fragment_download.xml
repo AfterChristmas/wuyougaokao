@@ -24,7 +24,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:shadowMarginTop="5dp"
-        app:shadowColor="#141FBD9E"
+        app:shadowColor="#142fbacb"
         app:shadowRadius="14dp"
         >
         <RelativeLayout

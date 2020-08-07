@@ -52,7 +52,7 @@
                     android:layout_marginRight="16dp"
                     android:focusableInTouchMode="true"
                     app:shadowMarginBottom="5dp"
-                    app:shadowColor="#1F1FBD9E"
+                    app:shadowColor="#1F2fbacb"
                     app:shadowRadius="14dp"
                     >
                     <androidx.constraintlayout.widget.ConstraintLayout

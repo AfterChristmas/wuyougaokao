@@ -67,9 +67,9 @@ public interface CommonConstant {
 
     public static final class URLConstant {
         // 用户协议文档地址
-        public static final String AGREEMENT_URL = "http://api.shipin211.com/docs/tifen_agreement.html";
+        public static final String AGREEMENT_URL = "http://api.shipin211.com/docs/wuyougaokao_agreement.html";
         // 隐私权限
-        public static final String PRIVACY_POLICY_URL = "http://api.shipin211.com/docs/tifen_privacy.html";
+        public static final String PRIVACY_POLICY_URL = "http://api.shipin211.com/docs/wuyougaokao_privacy.html";
 
     }
 }

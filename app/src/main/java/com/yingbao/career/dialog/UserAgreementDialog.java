@@ -119,9 +119,9 @@ public class UserAgreementDialog extends DialogFragment implements View.OnClickL
         jzjxtAgreementSpannable.setSpan(jzjxtAgreementSpan, 0, jzjxtAgreement.length(), Spanned.SPAN_INCLUSIVE_EXCLUSIVE);
         privacyPolicySpannable.setSpan(privacyPolicySpan, 0, privacyPolicy.length(), Spanned.SPAN_INCLUSIVE_EXCLUSIVE);
         //设置字体前景色
-        jzjxtAgreementSpannable.setSpan(new ForegroundColorSpan(Color.parseColor("#1FBD9E")), 0, jzjxtAgreement.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+        jzjxtAgreementSpannable.setSpan(new ForegroundColorSpan(Color.parseColor("#2fbacb")), 0, jzjxtAgreement.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
         //设置字体前景色
-        privacyPolicySpannable.setSpan(new ForegroundColorSpan(Color.parseColor("#1FBD9E")), 0, privacyPolicy.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+        privacyPolicySpannable.setSpan(new ForegroundColorSpan(Color.parseColor("#2fbacb")), 0, privacyPolicy.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
         tvUserAgreement.append(getString(R.string.main_user_agreement_start));
         tvUserAgreement.append(jzjxtAgreementSpannable);
         tvUserAgreement.append(getString(R.string.main_agreement_and));

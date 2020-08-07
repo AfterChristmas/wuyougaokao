@@ -65,7 +65,7 @@ class StudyRecordActivity : BaseActivity() {
                 }
                 simplePagerTitleView.setTextSize(16f);
                 simplePagerTitleView.setNormalColor(Color.parseColor("#666666"));
-                simplePagerTitleView.setSelectedColor(Color.parseColor("#1FBD9E"));
+                simplePagerTitleView.setSelectedColor(Color.parseColor("#2fbacb"));
                 simplePagerTitleView.setOnClickListener { mViewPager.currentItem = index }
                 return simplePagerTitleView
             }
@@ -74,7 +74,7 @@ class StudyRecordActivity : BaseActivity() {
                 val indicator = LinePagerIndicator(context)
                 indicator.mode = LinePagerIndicator.MODE_EXACTLY
                 indicator.lineWidth=UIUtil.dip2px(context,32.0).toFloat()
-                indicator.setColors(Color.parseColor("#1FBD9E"))
+                indicator.setColors(Color.parseColor("#2fbacb"))
                 return indicator
             }
         }

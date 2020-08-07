@@ -53,7 +53,7 @@
                                     android:layout_alignParentRight="true"
                                     android:text="删除"
                                     android:textSize="12sp"
-                                    android:textColor="@color/career_1FBD9E"
+                                    android:textColor="@color/career_2fbacb"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"/>
                         </RelativeLayout>
