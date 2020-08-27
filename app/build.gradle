@@ -48,7 +48,7 @@ android {
             variant ->
                 variant.outputs.all {
                     //在这里修改apk文件名
-                    outputFileName = "tifen-v${variant.versionName}.apk"
+                    outputFileName = "wuyougaokao-v${variant.versionName}.apk"
                 }
         }
     }
