@@ -348,6 +348,11 @@ public class PolyvPlayerActivity extends FragmentActivity implements View.OnClic
                         videoList.addAll(resultBean.getVideos());
                         videoPlayListVideoAdapter.notifyDataSetChanged();
                         vid = videoList.get(0).getVideoId();
+                        if (videoList.size()==0){
+                            ToastUtil.showShort(getApplicationContext(),"未找到相关视频！");
+                            finish();
+                            return;
+                        }
                         videoName = videoList.get(0).getVideoName();
                         videoCover = videoList.get(0).getVideoCover();
                         videoId = videoList.get(0).getId();
